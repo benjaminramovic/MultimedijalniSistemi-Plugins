@@ -1,3 +1,4 @@
+
 document.getElementById('movie-search-input').addEventListener('keyup', function () {
     let searchQuery = this.value;
     let movieListContainer = document.querySelector('.movie-list');

@@ -86,7 +86,6 @@ class AddfilmForm
             <form id="movie-form__form" enctype="multipart/form-data">
                 <input type="text" name="title" placeholder="Naziv filma" required>
                 <input type="text" name="_movie_year" placeholder="Godina" required>
-                <input type="number" name="_movie_rating" placeholder="Ocena" required>
                 <textarea name="_movie_plot" cols="30" rows="5" placeholder="Radnja filma" required></textarea>
                 <select style="background-color:white;" name="zanr" required>
                     <option value="">Izaberite žanr</option>
@@ -106,7 +105,6 @@ class AddfilmForm
 
                 <button type="submit">Dodaj</button>
             </form>
-            <button id="btn">Dodaj2</button>
 
         </div>
     <?php }
@@ -286,3 +284,4 @@ function display_average_rating($content) {
 
     return $content;
 } 
+
